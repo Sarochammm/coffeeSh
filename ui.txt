@@ -1,0 +1,22 @@
+Report
+ReportListAllProductSold - ShopID ProductCode ProductName Quantity TotalValueSold
+ReportListAllReceipts- RECEIPT
+ReportListAllProducts - PRODUCT
+ReportListAllMembers - MEMBER
+ReportListAllSalesPerson - SALES_PERSON
+
+ReceiptForms
+Head< New Edit Save Delete Print >
+ReceiptNo ReceiptDate 
+Customer code name
+PaymentMethod TotalPayment
+PointEarned TotalPoint
+ShopID SalesPerson
+
+Table
+# ProductID ProductName UnitPrice Quantity ExtendedPrice +
+SubTotal
+TotalVat
+TotalPayment
+Cash
+ChangeBack
